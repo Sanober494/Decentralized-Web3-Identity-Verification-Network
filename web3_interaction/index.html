@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decentralized Identity Verification</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Decentralized Identity Verification</h1>
+    </header>
+    <main>
+        <section id="verification-section">
+            <h2>Initiate Identity Verification</h2>
+            <form id="verification-form">
+                <label for="passport">Passport Number:</label>
+                <input type="text" id="passport" name="passport" required>
+                <label for="biometric">Biometric Data:</label>
+                <input type="text" id="biometric" name="biometric" required>
+                <button type="submit">Verify Identity</button>
+            </form>
+            <p id="verification-result"></p>
+        </section>
+        
+        <section id="interaction-section">
+            <h2>Interact with Web3 Application</h2>
+            <button id="transaction-button">Perform Secure Transaction</button>
+            <p id="interaction-result"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Decentralized Identity Verification</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
